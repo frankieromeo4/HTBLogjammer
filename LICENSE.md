@@ -8,8 +8,6 @@ You have been presented with the opportunity to work as a junior DFIR consultant
 ## Tools Used
 
 - **Splunk**: For analyzing and visualizing log data.
-- **Python**: For any scripting or additional log parsing.
-- **Wireshark**: (if applicable) for network traffic analysis.
 
 ## Challenge Questions and Answers
 
