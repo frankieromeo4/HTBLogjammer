@@ -4,8 +4,7 @@ This repository contains the analysis and solutions for the Hack The Box "Logjam
 
 ## Challenge Overview
 
-**Logjammer** is a Sherlock challenge on Hack The Box that requires analyzing log files to identify vulnerabilities and potential exploits. The goal is to understand the attack vector and mitigate the risks.
-
+**You have been presented with the opportunity to work as a junior DFIR consultant for a big consultancy. However, they have provided a technical assessment for you to complete. The consultancy Forela-Security would like to gauge your Windows Event Log Analysis knowledge. We believe the Cyberjunkie user logged in to his computer and may have taken malicious actions. Please analyze the given event logs and report back.
 ## Tools Used
 
 - **Splunk**: For analyzing and visualizing log data.
