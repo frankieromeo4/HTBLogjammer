@@ -13,9 +13,12 @@ You have been presented with the opportunity to work as a junior DFIR consultant
 
 1. **When did the cyberjunkie user first successfully log into his computer? (UTC)**
    - **Answer:** 27/03/2023 14:37:09
+   - I knew since these were Windows Event logs i could utilize event codes/IDs, Through some research i found out a succesful log on windows is coded 4624, so i added EventCode=4624 and cyberjunkie to my search. This then narrowed it down to 4 events. I then scrolled to the bottom for the earliest event to find the time.
 
 2. **The user tampered with firewall settings on the system. Analyze the firewall event logs to find out the Name of the firewall rule added?**
    - **Answer:** Metasploit C2 Bypass
+   - For this question I tried the same tactic but the event id I found was not showing up any results in my search so instead I added key words into my search such as "firewall" and "added" which had brought up around 490 events. Going through my search I came across an issue, The user collum which should say "cyberjunkie" says "user_not_translated" which is an issue when verifying if the event is from cyberjunkie. I then had to find another way to verify the events came from cyberjunkie, so I went back to my first log from question 1 and pulled the security ID and added it to my search.
+![Firewall Log](https://i.imgur.com/yourimageid.png)
 
 3. **What's the direction of the firewall rule?**
    - **Answer:** Outbound
